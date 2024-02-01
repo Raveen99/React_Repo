@@ -56,17 +56,27 @@ const Title = () => (
 // ------------------------------------------------------------------------------
 const HeaderCss = () => (
   <div className="header">
-    <img
-      src="https://img.freepik.com/free-vector/food-shopping-logo-template-design_460848-10299.jpg"
-      className="logo"
-      alt="logo"
-    ></img>
+    <div className="logo">
+      <img
+        src="https://img.freepik.com/free-vector/food-shopping-logo-template-design_460848-10299.jpg"
+        className="logo"
+        alt="logo"
+      ></img>
+    </div>
 
-    <input type="text" className="textbox"></input>
-    <img
-      className="user"
-      src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png"
-    ></img>
+    <div className="nav_items">
+      <ul>
+        <li>
+          <input type="text" className="textbox"></input>
+        </li>
+        <li>
+          <img
+            className="user"
+            src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png"
+          ></img>
+        </li>
+      </ul>
+    </div>
   </div>
 );
 
